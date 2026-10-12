@@ -1,0 +1,12 @@
+l1=[]
+f1=input("enter the fruit name:")
+l1.append(f1)
+f2=input("enter the fruit2 name:")
+l1.append(f2)
+f3=input("enter the fruit3 name:")          
+l1.append(f3)
+f4=input("enter the fruit4 name:")
+l1.append(f4)
+f5=input("enter the fruit5 name:")
+l1.append(f5)
+print(l1)

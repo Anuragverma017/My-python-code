@@ -1,0 +1,11 @@
+studentMakrs=[]
+student1=input("Enter marks of student 1: ")
+studentMakrs.append(student1)
+student2=input("Enter marks of student 2: ")
+studentMakrs.append(student2)          
+student3=input("Enter marks of student 3: ")
+studentMakrs.append(student3)
+student4=input("Enter marks of student 4: ")
+studentMakrs.append(student4)
+print(studentMakrs)
+print("the shorted list is ",sorted(studentMakrs))

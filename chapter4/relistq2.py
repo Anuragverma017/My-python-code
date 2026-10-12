@@ -1,0 +1,17 @@
+student=[]
+student1=int(input("Enter marks of student 1: "))
+student.append(student1)
+student2=int(input("Enter marks of student 2: "))            
+student.append(student2)
+student3=int(input("Enter marks of student 3: "))
+student.append(student3)
+student4=int(input("Enter marks of student 4: "))
+student.append(student4)
+student5=int(input("Enter marks of student 5: "))
+student.append(student5)
+student6=int(input("Enter marks of student 6: "))
+student.append(student6)
+print("the list of student marks is:",student)
+student.sort()
+print(f"the list of student marks is sorted in ascending order: {student}")
+

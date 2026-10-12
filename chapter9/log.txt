@@ -1,0 +1,30 @@
+= result ko read mein wapas daal do.
+
+So read ko read ke andar nahi dala hai 😄
+Actually purane read ko update karke usi variable mein naya result store kiya hai.
+
+how to use lorum ? in python how to get 10 lines
+
+Bhai agar tum Lorem Ipsum ki 10 lines Python mein generate karna chahte ho, to easiest way hai faker library.
+
+1. Install
+pip install faker
+2. Python code
+from faker import Faker
+
+fake = Faker()
+
+for i in range(10):
+    print(fake.text())
+
+Ye 10 random text lines/paragraphs generate karega.
+
+Agar specifically Lorem Ipsum chahiye
+from faker import Faker
+
+fake = Faker()
+
+for i in range(10):
+    print(fake.paragraph())
+
+Note: Faker ka text actual Lorem Ipsum nahi hota; agar tumhe exact "Lorem ipsum dolor sit amet..." type ka text chahiye, batao—main uska simple Python method bata dunga.
