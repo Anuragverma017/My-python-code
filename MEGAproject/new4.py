@@ -5,3 +5,4 @@ print("this is and this will run print function")
 a=10, b=12
 sum=(a+b)
 print(sum)
+print(sum+2)
