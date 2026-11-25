@@ -6,3 +6,4 @@ a=10, b=12
 sum=(a+b)
 print(sum)
 print(sum+2)
+print(sum*sum)
